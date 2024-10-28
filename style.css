@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 16px;
+    background: #045D5D;
+}
+.btn{
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: .1rem 1rem;
+}
+.ans-btn{
+    padding: 1rem 4rem;
+    background: #BFD9DF;
+    border-radius: .5rem;
+}
+.main{
+    width: 100vw;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.namta{
+    width: 90%;
+    background: white;
+    padding: 1rem 1rem;
+    border-radius: 1.3rem;
+}
+.namta .row1{
+    text-align: center;
+}
+.namta .row2{
+    padding: 2rem 0;
+}
+.namta .row2 .rowa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.rowa .row{
+    background: indigo;
+    border-radius: 1rem;
+    color: rgba(255,255,0,.9);
+    padding: .2rem 1.5rem;
+    margin: .2rem;
+}
+.namta .row2 .rowb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    padding-top: 2rem;
+}
+.rowb .col1{
+    background: indigo;
+    color: rgba(255,255,0,.9);
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+}
+.rowa span{
+    margin: .3rem;
+}
+.rowb .col2{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.rowb input{
+    width: 4rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    outline: none;
+    text-align: center;
+}
+
+.namta .row3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
